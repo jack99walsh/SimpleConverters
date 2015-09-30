@@ -12,8 +12,8 @@ public class distanceConverters {
         double measurement = Double.parseDouble(measurementIn); //Parsed the measurement to be used in future variables as a double
 
         double inchToCentimeter = measurement * 2.54;
-        double inchToFoot = measurement * 12;				//From inches conversions
-        double inchToYard = measurement * 36;
+        double inchToFoot = measurement / 12;				//From inches conversions
+        double inchToYard = measurement / 36;
 
         double footToInch = measurement * 12;
         double footToYard = measurement / 3;
