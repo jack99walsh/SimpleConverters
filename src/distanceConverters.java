@@ -37,7 +37,6 @@ public class distanceConverters {
         final double meterToKilometer = measurement / 1000;		//From meter Conversions
         final double meterToFoot = measurement * 3.28084;
         final double meterToYard = measurement * 1.0936;
-
         final double kilometerToCentimeter = measurement * 100000;
         final double kilometerToMeter = measurement * 1000;
         final double kilometerToMile = measurement * .6214;		//From kilometers conversions

@@ -10,14 +10,14 @@ public class temperatureConverter {
 
         double temperature = Double.parseDouble (temperatureIn);
 
-        double celsiusToFahrenheitConvert = temperature * 1.8 + 32;
-        double celsiusToKelvinConvert = temperature + 273.15;
+        final double celsiusToFahrenheitConvert = temperature * 1.8 + 32;
+        final double celsiusToKelvinConvert = temperature + 273.15;
 
-        double kelvinToCelsiusConvert = temperature - 273.15;
-        double kelvinToFahrenheitConvert = (temperature - 273.15) * 1.8 + 32;
+        final double kelvinToCelsiusConvert = temperature - 273.15;
+        final double kelvinToFahrenheitConvert = (temperature - 273.15) * 1.8 + 32;
 
-        double fahrenheitToCelsiusConvert = (temperature -32) * 5 / 9;
-        double fahrenheitToKelvinConvert = (temperature - 32) * 5 / 9 + 273.15;
+        final double fahrenheitToCelsiusConvert = (temperature -32) * 5 / 9;
+        final double fahrenheitToKelvinConvert = (temperature - 32) * 5 / 9 + 273.15;
 
         if (temperatureScaleFrom.equals("F") && temperatureScaleTo.equals("C"))
         {
